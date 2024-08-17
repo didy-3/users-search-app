@@ -2,7 +2,7 @@
   <div v-if="short" class="user-card-short" :class="{active:active}" @click="$emit('userClicked', user)">
     <div class="img-wrapper"><img src="@/assets/images/image.png" /></div>
     <div class="user-info-wrapper">
-      <div class="semibold-text fs-16px">{{ user.username }}</div>
+      <div class="semibold-text">{{ user.name }}</div>
       <div class="text-color-gray-3">{{ user.email }}</div>
     </div>
   </div>
